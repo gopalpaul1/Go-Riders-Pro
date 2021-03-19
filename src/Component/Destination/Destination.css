@@ -1,0 +1,80 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.formFeild{
+
+    width: 280px;
+    height: 250px;
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.input-feild{
+    padding: 5px;
+    font-size: large;
+}
+.search{
+    width: 230px;
+    padding: 5px;
+    font-size: large;
+    border: 2px solid #03b4ab ;
+    color: white;
+    background-color: #03b4ab;
+}
+.googlemap{
+    margin-left: 20px;
+}
+.mapImage{
+    width: 100%;
+    height: 80%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        
+    }
+
+    .formFeild{
+        width: 280px;
+        height: 250px;
+        background-color: lightgrey;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 5px 5px 20px lightgrey;
+    
+    }
+    
+    .input-feild{
+        padding: 5px;
+        font-size: large;
+    }
+    .search{
+        width: 230px;
+        padding: 5px;
+        font-size: large;
+        border: 2px solid crimson ;
+        color: white;
+        background-color: crimson;
+    }
+    .googlemap{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .map img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}

@@ -1,0 +1,26 @@
+[ 
+    {
+        "id" : "1",
+        "name":"Bike",
+        "image" : "https://gaadiwaadi.com/wp-content/uploads/2019/07/2019-Yamaha-R15-V3.0-Launched-In-Thailand-Grey-Yellow-1068x801.jpg" 
+    
+    },
+    {
+        "id" : "2",
+        "name":"Car",
+        "image" : "https://imgctcf.aeplcdn.com/thumbs/p-nc-b-ver201911141250/images/car-data/big/mercedes-benz-e-class-default.jpg" 
+    
+    },
+    {
+        "id" : "3",
+        "name":"Bus",
+        "image" : "https://d142kdlbmhxfq6.cloudfront.net/blogimgs/2018/06/Mercedes-Benz-2441-SHD-Coach-5-1024x683.jpg" 
+    
+    },
+    {
+        "id" : "4",
+        "name":"train",
+        "image" : "https://www.railwaypro.com/wp/wp-content/uploads/2020/12/BOZANKAYA-METRO.jpeg" 
+    
+    }
+]

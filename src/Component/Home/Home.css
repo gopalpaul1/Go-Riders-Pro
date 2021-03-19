@@ -1,0 +1,15 @@
+.RiderContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .RiderContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+}

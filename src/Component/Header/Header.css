@@ -1,0 +1,56 @@
+.NavItem{
+    
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.NavItem a{
+    text-decoration: none;
+    color: #190130;
+    font-size: large;
+    margin-left: 20px;
+}
+.Login{
+    border: 2px solid #bebebe;
+    border-radius: 50px;
+    padding: 3px 20px;
+    
+}
+
+.Login:hover{
+    border: 2px solid crimson;
+    background-color: crimson;
+    border-radius: 50px;
+    padding: 3px 20px;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .NavItem{
+
+        margin-top: 20px;
+    }
+    
+    .NavItem a{
+        text-decoration: none;
+        color: #190130;
+        font-size: large;
+        margin-left: 20px;
+    }
+    .Login{
+        border: 2px solid #bebebe;
+        border-radius: 50px;
+        padding: 3px 20px;
+        
+    }
+    
+    .Login:hover{
+        border: 2px solid #14dca0;
+        background-color: #14dc8f;
+        border-radius: 50px;
+        padding: 3px 20px;
+        color: white; 
+    }
+}
