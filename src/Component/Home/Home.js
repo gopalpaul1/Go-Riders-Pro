@@ -11,7 +11,6 @@ const Home = () => {
     useEffect(() => {
 
         setRiders(ridersData)
-        console.log(ridersData)
 
     }, [])
 
