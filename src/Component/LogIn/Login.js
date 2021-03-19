@@ -76,7 +76,6 @@ const Login = () => {
             newUserInfo.error = ''
             newUserInfo.success = true
             setUser(newUserInfo)
-            setLoggedInUser(newUserInfo)
             updateUserName(user.name)
     
         })
@@ -85,7 +84,7 @@ const Login = () => {
           newUserInfo.error = error.message
           newUserInfo.success = false
           setUser(newUserInfo)
-          setLoggedInUser(newUserInfo)
+
         });
         }
     
@@ -97,6 +96,7 @@ const Login = () => {
           newUserInfo.success = true
           setUser(newUserInfo)
           setLoggedInUser(newUserInfo)
+          history.replace(from)
           console.log("signed info", res.user)
           
         })
@@ -106,12 +106,11 @@ const Login = () => {
           newUserInfo.success = false
           setUser(newUserInfo)
           setLoggedInUser(newUserInfo)
+          history.replace(from)
           
         });
       }
-    
-        e.preventDefault()
-    
+      e.preventDefault()
     }
 
 
