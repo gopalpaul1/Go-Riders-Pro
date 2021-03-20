@@ -171,7 +171,7 @@ const Login = () => {
                 <input type="submit" className="Submit" value={newUser ? 'Sign up' : 'Login'} />
             </form>
             <input type="checkbox" onChange={() => setNewUser(!newUser)} name="newUser" />
-            <label htmlFor="newUser">Create an account</label>
+            {newUser ? <label htmlFor="newUser">login</label>:<label htmlFor="newUser">Create an account</label>}
             <h4>Or</h4>
             <button className="googleSignIn" onClick={handleGoogleSignIn}>Continue with Google</button>
             <br/><br/>

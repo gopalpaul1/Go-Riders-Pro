@@ -8,7 +8,7 @@
 .formFeild{
 
     width: 280px;
-    height: 250px;
+    height: 300px;
     background-color: lightgrey;
     padding: 10px;
     text-align: center;
@@ -18,6 +18,11 @@
 .input-feild{
     padding: 5px;
     font-size: large;
+}
+
+.date-feild{
+    width: 220px;
+    padding: 5px;
 }
 .search{
     width: 230px;
@@ -47,7 +52,7 @@
 
     .formFeild{
         width: 280px;
-        height: 250px;
+        height: 300px;
         background-color: lightgrey;
         padding: 10px;
         text-align: center;
@@ -58,6 +63,10 @@
     .input-feild{
         padding: 5px;
         font-size: large;
+    }
+    .date-feild{
+        width: 220px;
+        padding: 5px;
     }
     .search{
         width: 230px;

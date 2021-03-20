@@ -1,8 +1,6 @@
+
 .NavItem{
-    
-    text-align: right;
-    margin-right: 100px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .NavItem a{
@@ -27,7 +25,33 @@
     
 }
 
+.ContentName{
+    width: 300px;
+    margin-right: 300px;
+    color: #21053b;
+}
+
+.Header{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    
+}
+
+
+
 @media only screen and (max-width: 600px) {
+    .ContentName{
+        color: #21053b;
+        margin-left: 150px;
+        
+    }
+    .Header{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        
+    }
     .NavItem{
 
         margin-top: 20px;

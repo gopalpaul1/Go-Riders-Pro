@@ -12,6 +12,7 @@ import { createContext, useState } from 'react';
 import Login from './Component/LogIn/Login';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import Header from './Component/Header/Header';
+import DestinationDetails from './Component/DestinationDetails/DestinationDetails';
 
 
 export const UserContext = createContext()
@@ -21,17 +22,12 @@ function App() {
   return (
 
     <UserContext.Provider value={[loggedInUser, serLoggedInUser]}>
-      {/* <p>Name:{loggedInUser.name}</p> */}
-      
       <Router>
         <Header></Header>
         <Switch>
           <Route path="/home">
             <Home />
           </Route>
-          <PrivateRoute path="/destination">
-            <Destination />
-          </PrivateRoute>
           <PrivateRoute path="/destination/:id">
             <Destination />
           </PrivateRoute>

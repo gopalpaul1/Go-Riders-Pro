@@ -1,22 +1,33 @@
 import React from 'react';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import './Riders.css'
 
 const Riders = (props) => {
+
     const {name, image, id} = props.rider
+    console.log(id)
+    
 
     const history = useHistory()
-
     const handleRider = (id) => {
         
         history.push(`/destination/${id}`)
+
     }
 
+
+    
     return (
-        <div onClick={() => handleRider(id)} className="RiderContent">
-            <img className="Image" src={image} alt="images"/>
-            <h2 className="Text">{name}</h2>
-        </div>
+        
+
+            <div onClick={() => handleRider(id)} className="RiderContent">
+                <img className="Image" src={image} alt="images"/>
+                <h2 className="Text">{name}</h2>
+            </div>
+
+      
+
+
     );
 };
 
