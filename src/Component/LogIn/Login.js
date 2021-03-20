@@ -14,7 +14,7 @@ const Login = () => {
 
     const googleProvider = new firebase.auth.GoogleAuthProvider();
     const facebookProvider = new firebase.auth.FacebookAuthProvider();
-    const [setLoggedInUser] = useContext(UserContext)
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext)
 
     const history = useHistory();
     const location = useLocation();
