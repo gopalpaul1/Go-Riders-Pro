@@ -7,12 +7,11 @@ import {
 import Home from './Component/Home/Home';
 import NoMatch from './Component/NoMatch/NoMatch';
 import Destination from './Component/Destination/Destination';
-
 import { createContext, useState } from 'react';
 import Login from './Component/LogIn/Login';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import Header from './Component/Header/Header';
-import DestinationDetails from './Component/DestinationDetails/DestinationDetails';
+
 
 
 export const UserContext = createContext()

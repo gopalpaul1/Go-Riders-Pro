@@ -2,19 +2,33 @@ import React from 'react';
 import Map from '../Images/Map.png'
 
 const DestinationDetails = (props) => {
-    console.log(props.name)
     
-    const {image} = props.name
+    const {image, name, id} = props.name
     
     return (
-        <div>
-
+        <div className="locationDetails">
             <div>
-                <img style={{width:"20px"}} src={image} alt="images"/>
+                <div className="card">
+                    <img style={{width:"60px"}} src={image} alt="images"/>
+                    <p>{name}</p>
+                    <p>{id}</p>
+                    <p>$ 67</p>
+                </div>
+                <div className="card">
+                    <img style={{width:"60px"}} src={image} alt="images"/>
+                    <p>{name}</p>
+                    <p>{id}</p>
+                    <p>$ 67</p>
+                </div>
+                <div className="card">
+                    <img style={{width:"60px"}} src={image} alt="images"/>
+                    <p>{name}</p>
+                    <p>{id}</p>
+                    <p>$ 67</p>
+                </div>
             </div>
-
-            <div>
-                <img style={{width:"200px", height:"200px"}} src={Map} alt=""/>
+            <div className="map-image">
+                <img src={Map} alt="map"/>
             </div>
         </div>
     );
