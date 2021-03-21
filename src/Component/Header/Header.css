@@ -5,7 +5,7 @@
 
 .NavItem a{
     text-decoration: none;
-    color: #190130;
+    color: #450085;
     font-size: large;
     margin-left: 20px;
 }
@@ -26,15 +26,20 @@
 }
 
 .ContentName{
-    width: 300px;
-    margin-right: 300px;
-    color: #21053b;
+    
+    color: #450085;
+    margin-right: 500px;
 }
 
 .Header{
     display: flex;
-    margin-left: 100px;
+    justify-content: center;
     flex-wrap: wrap;
+    position:sticky;
+    top: 0px;
+    background-color: #ffffffea;
+    box-shadow: 0px 5px 20px #f0f0f0;
+    box-shadow: 0px 5px 20 red;
     
 }
 
@@ -42,8 +47,9 @@
 
 @media only screen and (max-width: 600px) {
     .ContentName{
-        color: #21053b;
-        margin-left: 150px;
+        color: #450085;
+        margin-right: 0px;
+        text-align: center;
         
     }
     .Header{
@@ -59,7 +65,7 @@
     
     .NavItem a{
         text-decoration: none;
-        color: #190130;
+        color: #450085;
         font-size: large;
         margin-left: 20px;
     }

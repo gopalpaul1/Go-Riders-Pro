@@ -4,8 +4,11 @@ import { UserContext } from '../../App';
 import './Header.css'
 
 const Header = () => {
+
     const [loggedInUser] = useContext(UserContext)
+
     return (
+
         <div className="Header">
             
             <h2 className="ContentName">GoRidersPro</h2>
@@ -18,7 +21,6 @@ const Header = () => {
                 <p style={{textAlign:"right",color:"darkcyan"}}>{loggedInUser.name}</p>
             </div><br/>
 
-            
         </div>
     );
 };
